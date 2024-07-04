@@ -1,0 +1,70 @@
+.signupContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.signupParentDiv {
+  width: 550px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signupParentDiv form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupParentDiv label {
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+.signupParentDiv .input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signupParentDiv .signupButton {
+  padding: 10px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signupParentDiv .signupButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.signupParentDiv .signupButton:hover:enabled {
+  background-color: #005f5f;
+}
+
+.signupParentDiv .error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.signupParentDiv .loginLink {
+  display: block;
+  margin-top: 15px;
+  color: #008cba;
+  text-decoration: none;
+}
+
+.signupParentDiv .loginLink:hover {
+  text-decoration: underline;
+}

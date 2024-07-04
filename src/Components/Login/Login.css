@@ -1,0 +1,75 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.loginParentDiv {
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.loginParentDiv img {
+  margin-bottom: 20px;
+}
+
+.loginParentDiv form {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginParentDiv label {
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+.loginParentDiv .input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.loginParentDiv .loginButton {
+  padding: 10px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.loginParentDiv .loginButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loginParentDiv .loginButton:hover:enabled {
+  background-color: #005f5f;
+}
+
+.loginParentDiv .error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.loginParentDiv .signupLink {
+  display: block;
+  margin-top: 15px;
+  color: #008cba;
+  text-decoration: none;
+}
+
+.loginParentDiv .signupLink:hover {
+  text-decoration: underline;
+}
