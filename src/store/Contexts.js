@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 
 export const FirebaseContext = createContext(null);
 export const AuthContext = createContext(null);

@@ -1,7 +1,7 @@
 // src/firebase/config.js
-import firebase from "firebase";
+import firebase from 'firebase/app';
 import 'firebase/auth';
-import 'firebase/firebase';
+import 'firebase/firestore';
 import 'firebase/storage';
 
 const firebaseConfig = {
@@ -12,6 +12,6 @@ const firebaseConfig = {
     messagingSenderId: "804697223307",
     appId: "1:804697223307:web:bd670f0ff9bae2b672248e",
     measurementId: "G-F9FHEZEREW"
-  };
+};
 
-export default firebase.initializeApp(firebaseConfig)
+export default firebase.initializeApp(firebaseConfig);
