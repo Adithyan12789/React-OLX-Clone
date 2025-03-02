@@ -51,8 +51,8 @@ function Header() {
           <span> ENGLISH </span>
           <Arrow />
         </div>
-        <div className="loginPage">
-          <span onClick={() => navigate(user ? '/' : '/login')}>
+        <div className="loginPage" onClick={() => navigate(user ? '/' : '/login')}>
+          <span>
             {user ? `Welcome ${user.displayName}` : 'Login'}
           </span>
           <hr />

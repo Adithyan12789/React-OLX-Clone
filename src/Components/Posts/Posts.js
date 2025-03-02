@@ -84,6 +84,92 @@ function Posts() {
               <span>10/5/2021</span>
             </div>
           </div>
+
+          <div className="card">
+            <div className="favorite">
+              <Heart></Heart>
+            </div>
+            <div className="image">
+              <img src="../../../Images/black.jpg" alt="" />
+            </div>
+            <div className="content">
+              <p className="rate">&#x20B9; 100000</p>
+              <span className="kilometer">Two Wheeler</span>
+              <p className="name">CHAMPION MAGNESIUM</p>
+            </div>
+            <div className="date">
+              <span>10/5/2021</span>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="favorite">
+              <Heart></Heart>
+            </div>
+            <div className="image">
+              <img src="../../../Images/i,sge3.jpeg" alt="" />
+            </div>
+            <div className="content">
+              <p className="rate">&#x20B9; 125000</p>
+              <span className="kilometer">Three Wheeler</span>
+              <p className="name"> Bajaj Qute</p>
+            </div>
+            <div className="date">
+              <span>10/5/2021</span>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="favorite">
+              <Heart></Heart>
+            </div>
+            <div className="image">
+              <img src="../../../Images/R15V3.jpg" alt="" />
+            </div>
+            <div className="content">
+              <p className="rate">&#x20B9; 250000</p>
+              <span className="kilometer">Two Wheeler</span>
+              <p className="name"> YAMAHA R15V3</p>
+            </div>
+            <div className="date">
+              <span>10/5/2021</span>
+            </div>
+          </div>
+          
+          <div className="card">
+            <div className="favorite">
+              <Heart></Heart>
+            </div>
+            <div className="image">
+              <img src="../../../Images/images.jpeg" alt="" />
+            </div>
+            <div className="content">
+              <p className="rate">&#x20B9; 950000</p>
+              <span className="kilometer">Four Wheeler</span>
+              <p className="name"> </p>
+            </div>
+            <div className="date">
+              <span>10/5/2021</span>
+            </div>
+          </div>
+          
+          <div className="card">
+            <div className="favorite">
+              <Heart></Heart>
+            </div>
+            <div className="image">
+              <img src="../../../Images/pulsar-150-sd-bajaj-bike-500x500.webp" alt="" />
+            </div>
+            <div className="content">
+              <p className="rate">&#x20B9; 150000</p>
+              <span className="kilometer">Two Wheeler</span>
+              <p className="name"> Pulsar</p>
+            </div>
+            <div className="date">
+              <span>10/5/2021</span>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>

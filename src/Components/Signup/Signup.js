@@ -116,7 +116,6 @@ export default function Signup() {
         <img width="200px" height="130px" src={Logo} alt="OLX Logo" />
         <form onSubmit={handleSubmit}>
           <label htmlFor="username">Username</label>
-          <br />
           <input
             className="input"
             type="text"
@@ -127,9 +126,7 @@ export default function Signup() {
             placeholder="Enter your username"
           />
           {userNameError && <span className="error">{userNameError}</span>}
-          <br />
           <label htmlFor="email">Email</label>
-          <br />
           <input
             className="input"
             type="email"
@@ -140,9 +137,7 @@ export default function Signup() {
             placeholder="Enter your email"
           />
           {emailError && <span className="error">{emailError}</span>}
-          <br />
           <label htmlFor="phone">Phone</label>
-          <br />
           <input
             className="input"
             type="tel"
@@ -153,9 +148,7 @@ export default function Signup() {
             placeholder="Enter your phone number"
           />
           {phoneError && <span className="error">{phoneError}</span>}
-          <br />
           <label htmlFor="password">Password</label>
-          <br />
           <input
             className="input"
             type="password"

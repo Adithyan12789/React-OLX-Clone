@@ -76,7 +76,6 @@ export default function Login() {
         <img width="200px" height="130px" src={Logo} alt="OLX Logo" />
         <form onSubmit={handleSubmit}>
           <label htmlFor="email">Email</label>
-          <br />
           <input
             className="input"
             type="email"
@@ -87,9 +86,7 @@ export default function Login() {
             placeholder="Enter your email"
           />
           {emailError && <span className="error">{emailError}</span>}
-          <br />
           <label htmlFor="password">Password</label>
-          <br />
           <input
             className="input"
             type="password"
@@ -100,9 +97,7 @@ export default function Login() {
             placeholder="Enter your password"
           />
           {passwordError && <span className="error">{passwordError}</span>}
-          <br />
           {error && <span className="error">{error}</span>} {/* Display Firebase error message */}
-          <br />
           <button type="submit" className="loginButton" disabled={!isFormValid}>
             Login
           </button>
